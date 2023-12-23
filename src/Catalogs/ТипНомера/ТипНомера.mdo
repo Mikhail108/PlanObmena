@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3cc079b-9bb4-4c56-bf0f-012266641442">
+  <producedTypes>
+    <objectType typeId="76a9c3b8-d199-4504-9c54-c702d6a5d8a0" valueTypeId="1d64cca1-8a99-4833-ad65-d311dc9a93b4"/>
+    <refType typeId="d51b79f7-dba9-4fd9-8069-2fbdd5e30bf5" valueTypeId="fb0ac0a5-ae26-4ed6-bb78-a8c3500d726f"/>
+    <selectionType typeId="fefa54af-8f86-4f3f-81f1-35c6c146d92d" valueTypeId="6ff655f4-8a02-48ad-ad2e-1f6bfc8d1f1c"/>
+    <listType typeId="f337f0ee-7972-41bb-977b-a641d58a1b5d" valueTypeId="9c0236f2-aa2c-4dec-911c-09d0fd2caef5"/>
+    <managerType typeId="b34d6dfd-d9dc-47fe-9e7c-216f0e7eab41" valueTypeId="2f62ad74-f2c2-4c62-aa3f-10e15ba8f1b5"/>
+  </producedTypes>
+  <name>ТипНомера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип номера</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипНомера.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТипНомера.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

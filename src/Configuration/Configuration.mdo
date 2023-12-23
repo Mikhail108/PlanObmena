@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c6a50fc-2b35-4fbe-91ea-5b2f3785bca9">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="3202d501-a30e-4de7-83c3-0896d6ca8636"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="081fd47d-43c2-4991-83ad-ae36420aa41d"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="9def7e6b-7809-42a8-afdd-74e1fbca5081"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="41842141-c917-4a29-944e-0fb4191fb6c9"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="94f04daa-2f3f-495b-aabc-4f110a8b67c7"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="d997f648-5fa8-40a2-9cde-090d57ec2832"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="f1d8f8cc-23e6-4bd8-9f53-0d94a00a1363"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.22</compatibilityMode>
+  <languages uuid="dfaae084-3d9f-4f80-9644-63ba6c73c7b5">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <exchangePlans>ExchangePlan.ОбменМеждуСистемамиБронирования</exchangePlans>
+  <catalogs>Catalog.Постоялец</catalogs>
+  <catalogs>Catalog.ТипНомера</catalogs>
+  <documents>Document.Бронирование</documents>
+  <enums>Enum.Пол</enums>
+  <dataProcessors>DataProcessor.ПланОбмена</dataProcessors>
+</mdclass:Configuration>

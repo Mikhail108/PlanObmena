@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="553ea9cd-2f53-4f3d-b84c-3d763fa31a44">
+  <producedTypes>
+    <objectType typeId="e95a40db-36a0-478b-864d-fd64e330752e" valueTypeId="30fe428d-741b-4eba-b991-0b3b32f689ca"/>
+    <refType typeId="839712b7-5c89-47f9-a804-a7108f7cd623" valueTypeId="2639e4e1-0509-46b7-82cc-ba9169206755"/>
+    <selectionType typeId="77615fa0-3cbe-4281-80ee-40298c27a41e" valueTypeId="7d8e76ba-7a0a-43d1-85b5-30656d9269c7"/>
+    <listType typeId="17b77b32-f802-4e7c-838e-35a2d05b0168" valueTypeId="a4470471-4cdd-49db-a9b0-e9988ea474ad"/>
+    <managerType typeId="ab8a205c-e573-4cde-b1e8-326ad230a3e4" valueTypeId="79135d70-3862-42da-b6a7-ec55b40d8689"/>
+  </producedTypes>
+  <name>Постоялец</name>
+  <synonym>
+    <key>ru</key>
+    <value>Постоялец</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Постоялец.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Постоялец.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="d670df86-7f82-427c-833d-8614ddf87716">
+    <name>Пол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пол</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Пол</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="69a811a3-94e1-4077-acda-5c320bb9855e">
+    <name>ДатаРождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата рождения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

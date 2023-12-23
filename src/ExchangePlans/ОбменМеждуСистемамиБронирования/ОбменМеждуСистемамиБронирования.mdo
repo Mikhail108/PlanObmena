@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d15b60a-0fdd-4fc0-93aa-cb3bc7785bf9" thisNode="9f06556b-4d3e-48b4-9e67-cea7f0dcaf5f">
+  <producedTypes>
+    <objectType typeId="6ae29c1a-c1a2-46eb-9852-fa1b948152b8" valueTypeId="b13b3600-0042-4b3f-90d5-e1ebdddeba9f"/>
+    <refType typeId="bd0bfcbe-8658-4e53-8c3a-ada0d10ecca5" valueTypeId="3e63ea6d-e061-44ae-985a-03f0d31e54b1"/>
+    <selectionType typeId="84f81dda-e2be-4bdb-9489-4892181f5b21" valueTypeId="fcc34989-6ae7-4263-9c2d-6e692dc4aeac"/>
+    <listType typeId="71a39559-4486-4b43-9e67-604227ba1d28" valueTypeId="c848c0df-3653-4d41-9d0e-226c7bc9b907"/>
+    <managerType typeId="5f182267-e52f-45cc-b419-61f1c096b609" valueTypeId="29dd8c8c-4c70-4550-8c0d-aa0d3cee62e8"/>
+  </producedTypes>
+  <name>ОбменМеждуСистемамиБронирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен между системами бронирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.ОбменМеждуСистемамиБронирования.StandardAttribute.Code</inputByString>
+  <inputByString>ExchangePlan.ОбменМеждуСистемамиБронирования.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ExchangePlan.ОбменМеждуСистемамиБронирования.Form.ФормаУзла</defaultObjectForm>
+  <defaultListForm>ExchangePlan.ОбменМеждуСистемамиБронирования.Form.ФормаСписка</defaultListForm>
+  <forms uuid="2fdf50fd-bd5e-44da-8cef-507df641910e">
+    <name>ФормаУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма узла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="219ca886-62ad-432f-b1e2-c5273727604b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExchangePlan>

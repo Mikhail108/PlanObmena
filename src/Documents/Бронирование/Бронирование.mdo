@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="134cc9b1-d678-4f2d-ab2d-f2ba6237397d">
+  <producedTypes>
+    <objectType typeId="4ab95e10-99e1-4beb-b517-529104e8f876" valueTypeId="2e1b771b-38a7-4765-95fb-6fbbea72ab30"/>
+    <refType typeId="3b1c53de-4036-42f2-931a-ac6885fd5891" valueTypeId="f2932eba-b86e-422c-b6a3-a619fde37c4a"/>
+    <selectionType typeId="11193dbb-a7f7-44cf-9b44-ddee04e290ff" valueTypeId="c9b3d51e-9760-4c0e-990e-e1af487c8c59"/>
+    <listType typeId="473cca3b-e5d2-4677-b835-56023ec15188" valueTypeId="3895a5b0-2d35-41e3-ada8-834cfc237f57"/>
+    <managerType typeId="fc05e1db-c710-448c-b950-2e712caef8c9" valueTypeId="657c8817-cbe1-4db2-a065-104e48df0bf3"/>
+  </producedTypes>
+  <name>Бронирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бронирование</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Бронирование.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="398c5109-5e92-40c3-969b-ddd8976ea5f9">
+    <name>ТипНомера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип номера</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипНомера</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f1be5132-e8db-4b2f-9a50-4dbb90fc3632">
+    <name>ДатаЗаезда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата заезда</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cc1bce3d-c6cb-40c4-81c6-b84b64240f5f">
+    <name>ДатаВыезда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выезда</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="2a5b9f17-486c-4922-a18a-2a2b2af2e64f">
+    <producedTypes>
+      <objectType typeId="e76ed2d0-3b84-444a-8378-23068f096d40" valueTypeId="e2d2f220-5aca-4ee9-8c7e-4b5829ec30d1"/>
+      <rowType typeId="ff0a5fee-68a5-4bab-9ce7-1576a8304d5b" valueTypeId="e2956824-e7c3-45a0-843e-eb093cd3a5df"/>
+    </producedTypes>
+    <name>Постояльцы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Постояльцы</value>
+    </synonym>
+    <attributes uuid="d16865bc-0867-44d1-9cf2-34b5c539bca7">
+      <name>Постоялец</name>
+      <synonym>
+        <key>ru</key>
+        <value>Постоялец</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Постоялец</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
